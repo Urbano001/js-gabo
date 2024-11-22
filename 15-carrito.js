@@ -17,30 +17,31 @@ document.write(`<h1>El total a pagar es ${total} y el impuesto es ${impuesto}<h1
 
 var compras = prompt('deseas comprar','si')
 const catalago= [
-    {producto: 'Pera', Precio: 150},
-    {producto: 'mango', Precio: 200},
-    {producto: 'manzana', Precio: 300},
-    {producto: 'harina', Precio: 300},
-    {producto: 'agua', Precio: 250},
-    {producto: 'carner', Precio: 450},
+    {ID:1, producto: 'Pera', Precio: 150},
+    {ID:2, producto: 'mango', Precio: 200},
+    {ID:3, producto: 'manzana', Precio: 300},
+    {ID:4, producto: 'harina', Precio: 300},
+    {ID:5, producto: 'agua', Precio: 250},
+    {ID:6, producto: 'carner', Precio: 450},
 ]
 
 
 
-if (compras){
-    mostrarCatalogo(catalogo);
+if (compras="si"){
+    mostrarCatalogo(catalago);
 } else (
     console.log('no quiero comprar')
 )
 
 
-function mostrarCatalogo(catalogo){
-    for (let i = 0; i < catalogo.length; i++){
-        var productoadd = prompt (catalogo[i]);
+function mostrarCatalogo(catalago){
+    for (let i = 0; i < catalago.length; i++){
+        var productoadd = prompt (catalago[i]);
 
 }
-console.log('selecciones un producto por id');
+
 var compras = prompt ('ingrese un id',0);
+console.log(`haz agregado el carrito el producto con el id ${compras2}`);
 }
 mostrarCatalogo(catalago);
 
