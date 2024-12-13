@@ -1,0 +1,44 @@
+.titulo{
+    color:blue;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+
+.boton{
+    width: 100px;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+.red{
+    background-color: red;
+    text-decoration: underline;
+    width: 500px;
+    padding: 50px;
+
+}
+.boton{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.ancho{
+    width: 800px;
+    display: none;
+
+}
+.blue{
+            background-color: blue;
+            width: 300;
+            color: white;
+            padding: 50px;
+        }
+.textred{
+    color: red;
+    text-decoration: underline;
+}
+.textbig{
+    font-size: 10px;
+}
